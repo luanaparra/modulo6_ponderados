@@ -8,3 +8,9 @@ a) Configuração adequada do ambiente de desenvolvimento ROS; (peso 2)
 b) Funcionamento correto do script de interação com o turtlesim; (peso 3)
 c) Explicação coerente e concisa da implementação; (peso 3)
 d) Congruência entre o que foi escrito e o código disposto no repositório do github; (peso 2)
+
+## Explicação do exercício
+### Código
+
+### Vídeo
+Link para demonstração: 
