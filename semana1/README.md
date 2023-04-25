@@ -117,23 +117,19 @@ Se tudo deu certo, você acabou de ver dois processos totalmente independentes c
 
 #### Interagindo com o código de exemplo
 
-Nesse repositório contamos com um [código de exemplo](./exemplo) para que vocês não partam do 0 em seu desenvolvimento. Para conseguir rodá-lo, basta fazer algumas coisinhas. Primeiro, navegar até a pasta do exemplo:
-
 ```bash
-cd exemplo
+cd turtlesim
 ```
 
 Aqui você vai encontrar a seguinte estrutura:
 ```
-.
-└── exemplo
-    ├── exemplo.py
+.turtlesim
+└── 
+    ├── draw.py
     └── requirements.txt
 
 1 directory, 2 files
 ```
-
-O arquivo `exemplo.py` é um script utilizando OOP para interagir com o nó de simulação do turtlesim. Já o requirements.txt é o resultado de um comando `pip freeze` dentro de um venv utilizado para criar esse exemplo. Isso significa que ele tem todos os pacotes necessários para rodar o script. Vamos garantir que está tudo instalado com: 
 
 ```bash
 pip install -r requirements.txt
@@ -147,17 +143,21 @@ ros2 run turtlesim turtlesim_node
 A seguir, basta rodar o script em outro terminal. Para isso, primeiro vamos garantir que ele está com permissão para execução:
 
 ```bash
-chmod +x exemplo.py
+chmod +x draw.py
 ```
 
 Ok, agora basta rodar o script como se fosse um executável qualquer em Linux:
 
 ```bash
-./exemplo.py
+./draw.py
 ```
 
 ### Código /turtlesim/draw.py
+O código em Python é um controlador simples para um robô simulado chamado Turtle, que usa a biblioteca ROS (Robot Operating System) para enviar comandos de movimento para o robô.
 
+Dessa maneira, o programa cria um nó ROS chamado "turtle_controller e cria um publicador para enviar comandos de movimento para o robô e um temporizador para controlar a frequência do envio desses comandos. Na função "move_turtle()", o código define a velocidade linear e angular do robô usando um objeto "Twist" da biblioteca ROS, enviando dois comandos para o robô, um para avançar em linha reta e outro para girar (o que faria ele desenhar uma espiral). Em seguida, ele faz o robô avançar em uma linha reta e girar cinco vezes para a direita, enviando comandos de movimento em cada iteração.
+
+Por fim, a função "main()" inicializa o nó ROS, cria uma instância do TurtleController, inicia o loop de eventos do ROS com "rclpy.spin()" e, ao finalizar, encerra o nó e finaliza o ROS.
 
 ### Vídeo
-Link para demonstração: 
+Link para demonstração: https://drive.google.com/file/d/1ri3i7C93kFpxCU6WoaJeZVLIe77uPDkJ/view?usp=share_link
