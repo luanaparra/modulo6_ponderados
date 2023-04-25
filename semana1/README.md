@@ -12,7 +12,7 @@ d) Congruência entre o que foi escrito e o código disposto no repositório do 
 ## Explicação do exercício
 Criação de um script em Python capaz de interagir com o nó de simulação do turtlesim e enviar mensagens nos tópicos que regem a locomoção da tartaruga principal. Dessa forma, o script foi utilizado para reproduzir um desenho de sua autoria.
 
-### Instruções
+### Instruções - AULA
 
 #### Instalação do WSL
 
@@ -156,7 +156,7 @@ Ok, agora basta rodar o script como se fosse um executável qualquer em Linux:
 ./exemplo.py
 ```
 
-### Código
+### Código /turtlesim/draw.py
 
 
 ### Vídeo
