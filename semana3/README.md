@@ -1,5 +1,3 @@
-<img src="../assets/logo-inteli.png" alt="Logo do Inteli"/>
-
 # Atividade 2: Simulação de robôs móveis com Gazebo
 
 ## Enunciado
