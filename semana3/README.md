@@ -18,3 +18,8 @@ Padrão de qualidade:
 3. Demonstração de movimento controlado de acordo com uma rota pré-estabelecida; (peso 3)
 4. Explicação coerente e concisa da implementação (min 250 caracteres e máximo 1500); (peso 2)
 5. Congruência entre o que foi escrito e o código disposto no repositório do github; (peso 2)
+
+# Instalação do ambiente
+```sh
+ros2 run robocontrol controler
+```
