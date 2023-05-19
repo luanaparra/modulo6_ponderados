@@ -55,15 +55,15 @@ As duas principais operações com pilhas são:
 <p style="margin-left: 25%">Imagem retirada de <a href="https://github.com/mary-tkachenko/stack-and-queues">Stacks and Queues</a></p>
 
 
-## Implementação de filas usando listas
+## Implementação de filas usando listas (fila ingenua)
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/nBv1Q_bdbTw/hqdefault.jpg)](https://www.youtube.com/watch?v=nBv1Q_bdbTw)
 
-## Implementação de filas usando listas ligadas
+## Implementação de filas usando listas ligadas (fila raiz)
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/1oFL12wy9Yw/hqdefault.jpg)](https://www.youtube.com/watch?v=1oFL12wy9Yw)
 
-## Implementação de filas usando deque
+## Implementação de filas usando deque (fila nutela)
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/68DhAuEBVP8/hqdefault.jpg)](https://www.youtube.com/watch?v=68DhAuEBVP8)
 
