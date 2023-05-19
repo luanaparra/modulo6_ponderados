@@ -1,0 +1,9 @@
+[submodule "exemplos/A-star-Pathfinding"]
+	path = exemplos/A-star-Pathfinding
+	url = git@github.com:rmnicola/A-star-Pathfinding
+[submodule "exemplos/a-estrela"]
+	path = exemplos/a-estrela
+	url = git@github.com:rmnicola/A-star-Pathfinding
+[submodule "exemplos/a-star"]
+	path = exemplos/a-star
+	url = git@github.com:rmnicola/A-star-Pathfinding
