@@ -1,5 +1,3 @@
-[Voltar para o repositório principal :house:](https://github.com/rmnicola/m6-ec-encontros.git)
-
 # Tipos abstratos de dados <!-- omit in toc -->
 
 ## Objetivos do encontro
