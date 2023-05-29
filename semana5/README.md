@@ -26,3 +26,5 @@ No código principal, utilizei a função VideoCapture() do OpenCV para capturar
 Após a detecção, utilizei a função imshow() do OpenCV para exibir o quadro com as detecções. A função plot() do objeto resultante da detecção foi utilizada para desenhar as caixas delimitadoras e as classes dos objetos identificados.
 
 Por fim, adicionei uma condição para sair do loop e após sair do loop, liberei os recursos da captura de vídeo e fechei todas as janelas abertas pelo OpenCV.
+
+Vídeo: https://drive.google.com/file/d/17y9viwjcwfArb1VLutEdFyHurvBJp7JT/view?usp=sharing
